@@ -14,10 +14,10 @@ development:
   # database: db/development.sqlite3
   adapter: mysql2
   encoding: utf8
-  database: #cms_db
+  database: cms_development
   pool: 5
-  username: root
-  password: hostnfly
+  username: cms_user
+  password: password@12
   socket: /tmp/mysql.sock
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
